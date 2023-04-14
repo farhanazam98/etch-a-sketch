@@ -40,4 +40,4 @@ function drawGrid(squaresPerSide) {
     }
 }
 
-drawGrid(4);
+drawGrid(64);
