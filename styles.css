@@ -1,0 +1,34 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+}
+
+button{
+    margin: 20px;
+}
+
+.cell {
+    display: flex;
+    flex: auto;
+    background-color: #555;
+}
+
+.hover {
+    background-color: red;
+}
+
+.grid{
+    height: 960px;
+    width: 960px;
+    display: flex;
+    flex-direction: column;
+
+}
